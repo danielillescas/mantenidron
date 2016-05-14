@@ -26,6 +26,8 @@ end
 
 set :relative_links, true
 
+set :fonts_dir, "fonts"
+
 # Rails-like js
 activate :sprockets
 
