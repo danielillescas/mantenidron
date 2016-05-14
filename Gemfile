@@ -12,4 +12,11 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 gem 'middleman', '>= 4.0.0'
 gem 'middleman-livereload'
 
+# Publish to GH pages
 gem 'middleman-gh-pages'
+
+# HTML minification
+gem "middleman-minify-html"
+
+# Sprockets for js
+gem 'middleman-sprockets', '~> 4.0.0.rc.2'
