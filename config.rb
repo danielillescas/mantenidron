@@ -34,6 +34,9 @@ activate :sprockets
 # No more .html
 activate :directory_indexes
 
+# Set image sizes to help the browser
+activate :automatic_image_sizes
+
 ###
 # Helpers
 ###
