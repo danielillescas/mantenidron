@@ -32,9 +32,6 @@ activate :sprockets
 # No more .html
 activate :directory_indexes
 
-# Faster files
-activate :gzip
-
 ###
 # Helpers
 ###
@@ -62,4 +59,7 @@ configure :build do
 
   # Use relative URLs
   activate :relative_assets
+
+  # Faster files
+  activate :gzip
 end
