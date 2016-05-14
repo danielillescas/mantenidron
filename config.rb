@@ -24,14 +24,15 @@ configure :development do
   activate :livereload
 end
 
-activate :relative_assets
 set :relative_links, true
 
+# Rails-like js
 activate :sprockets
 
 # No more .html
 activate :directory_indexes
 
+# Faster files
 activate :gzip
 
 ###
@@ -55,4 +56,10 @@ configure :build do
 
   # Minify Javascript on build
   activate :minify_javascript
+
+    # Enable cache buster
+  activate :asset_hash
+
+  # Use relative URLs
+  activate :relative_assets
 end
