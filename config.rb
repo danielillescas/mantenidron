@@ -28,6 +28,11 @@ set :relative_links, true
 
 activate :sprockets
 
+# No more .html
+activate :directory_indexes
+
+activate :gzip
+
 ###
 # Helpers
 ###
@@ -41,6 +46,9 @@ activate :sprockets
 
 # Build-specific configuration
 configure :build do
+  # Minify HTML on build
+  activate :minify_html
+
   # Minify CSS on build
   activate :minify_css
 
