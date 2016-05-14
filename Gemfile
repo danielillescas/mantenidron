@@ -21,4 +21,9 @@ gem "middleman-minify-html"
 # Sprockets for js
 gem 'middleman-sprockets', '~> 4.0.0.rc.2'
 
+# Image optimization
 gem 'middleman-imageoptim'
+
+# Faster JS minification
+gem 'therubyracer'
+gem 'oj'
