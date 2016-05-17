@@ -68,7 +68,4 @@ configure :build do
 
   # Faster files
   activate :gzip
-
-  # Compress images
-  activate :imageoptim
 end
