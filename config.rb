@@ -37,6 +37,9 @@ activate :directory_indexes
 # Set image sizes to help the browser
 activate :automatic_image_sizes
 
+# Compress images
+activate :imageoptim
+
 ###
 # Helpers
 ###
