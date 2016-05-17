@@ -26,6 +26,7 @@ end
 
 set :relative_links, true
 
+set :build_dir, "build"
 set :fonts_dir, "fonts"
 
 # Rails-like js
