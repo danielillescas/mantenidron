@@ -12,7 +12,7 @@ bundle
 rake build && rake publish
 ```
 
-- Luego añádelos al repositorio y sube los cambios:
+- Luego añádelos al repositorio y sube los cambios así:
 ```
 git add .
 ```
